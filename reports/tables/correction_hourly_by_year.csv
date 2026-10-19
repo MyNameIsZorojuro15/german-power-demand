@@ -1,0 +1,4 @@
+year,hours,official_mape_pct,corrected_mape_pct,selective_mape_pct,official_bias_pct,corrected_bias_pct
+2024,8784,3.73,4.19,4.11,-0.57,-0.88
+2025,8760,3.71,3.7,3.68,1.03,1.64
+2026,6983,3.91,3.49,3.46,0.95,-0.4

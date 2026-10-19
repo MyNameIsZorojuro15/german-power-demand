@@ -1,0 +1,3 @@
+midday_sunny_season,hours,official_mape_pct,corrected_mape_pct,selective_mape_pct
+False,21773,3.57,3.81,3.74
+True,2754,5.36,3.89,4.0

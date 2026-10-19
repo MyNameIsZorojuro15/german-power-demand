@@ -1,0 +1,227 @@
+{
+ "data_through": "2026-10-18",
+ "official_by_year": [
+  {
+   "year": 2023,
+   "hours": 8760,
+   "bias_pct": 0.39,
+   "mape_pct": 3.8
+  },
+  {
+   "year": 2024,
+   "hours": 8784,
+   "bias_pct": -0.57,
+   "mape_pct": 3.73
+  },
+  {
+   "year": 2025,
+   "hours": 8760,
+   "bias_pct": 1.03,
+   "mape_pct": 3.71
+  },
+  {
+   "year": 2026,
+   "hours": 6983,
+   "bias_pct": 0.95,
+   "mape_pct": 3.91
+  }
+ ],
+ "official_solar": {
+  "hours": 8322,
+  "corr_error_vs_solar_share": 0.595,
+  "years": "2023-2026"
+ },
+ "correction_daily_by_year": [
+  {
+   "year": 2024,
+   "days": 366,
+   "official_mape_pct": 3.17,
+   "corrected_mape_pct": 3.85,
+   "selective_mape_pct": 3.58
+  },
+  {
+   "year": 2025,
+   "days": 365,
+   "official_mape_pct": 3.15,
+   "corrected_mape_pct": 3.2,
+   "selective_mape_pct": 3.05
+  },
+  {
+   "year": 2026,
+   "days": 291,
+   "official_mape_pct": 3.24,
+   "corrected_mape_pct": 2.74,
+   "selective_mape_pct": 2.65
+  }
+ ],
+ "weekahead_scores": [
+  {
+   "horizon_days": 1,
+   "model": "seasonal_naive",
+   "n": 1021,
+   "mape_pct": 4.58,
+   "bias_pct": 0.15,
+   "p90_abs_error_pct": 9.62
+  },
+  {
+   "horizon_days": 1,
+   "model": "ridge",
+   "n": 1021,
+   "mape_pct": 3.16,
+   "bias_pct": 0.0,
+   "p90_abs_error_pct": 6.7
+  },
+  {
+   "horizon_days": 1,
+   "model": "official",
+   "n": 1021,
+   "mape_pct": 3.18,
+   "bias_pct": 0.46,
+   "p90_abs_error_pct": 6.77
+  },
+  {
+   "horizon_days": 2,
+   "model": "seasonal_naive",
+   "n": 1020,
+   "mape_pct": 4.57,
+   "bias_pct": 0.16,
+   "p90_abs_error_pct": 9.62
+  },
+  {
+   "horizon_days": 2,
+   "model": "ridge",
+   "n": 1020,
+   "mape_pct": 3.31,
+   "bias_pct": -0.0,
+   "p90_abs_error_pct": 7.22
+  },
+  {
+   "horizon_days": 3,
+   "model": "seasonal_naive",
+   "n": 1019,
+   "mape_pct": 4.56,
+   "bias_pct": 0.18,
+   "p90_abs_error_pct": 9.6
+  },
+  {
+   "horizon_days": 3,
+   "model": "ridge",
+   "n": 1019,
+   "mape_pct": 3.41,
+   "bias_pct": -0.01,
+   "p90_abs_error_pct": 7.25
+  },
+  {
+   "horizon_days": 4,
+   "model": "seasonal_naive",
+   "n": 1018,
+   "mape_pct": 4.55,
+   "bias_pct": 0.19,
+   "p90_abs_error_pct": 9.49
+  },
+  {
+   "horizon_days": 4,
+   "model": "ridge",
+   "n": 1018,
+   "mape_pct": 3.45,
+   "bias_pct": -0.01,
+   "p90_abs_error_pct": 7.28
+  },
+  {
+   "horizon_days": 5,
+   "model": "seasonal_naive",
+   "n": 1017,
+   "mape_pct": 4.54,
+   "bias_pct": 0.2,
+   "p90_abs_error_pct": 9.37
+  },
+  {
+   "horizon_days": 5,
+   "model": "ridge",
+   "n": 1017,
+   "mape_pct": 3.49,
+   "bias_pct": -0.0,
+   "p90_abs_error_pct": 7.54
+  },
+  {
+   "horizon_days": 6,
+   "model": "seasonal_naive",
+   "n": 1016,
+   "mape_pct": 4.54,
+   "bias_pct": 0.21,
+   "p90_abs_error_pct": 9.26
+  },
+  {
+   "horizon_days": 6,
+   "model": "ridge",
+   "n": 1016,
+   "mape_pct": 3.54,
+   "bias_pct": 0.0,
+   "p90_abs_error_pct": 7.58
+  },
+  {
+   "horizon_days": 7,
+   "model": "seasonal_naive",
+   "n": 1015,
+   "mape_pct": 5.43,
+   "bias_pct": 0.24,
+   "p90_abs_error_pct": 11.63
+  },
+  {
+   "horizon_days": 7,
+   "model": "ridge",
+   "n": 1015,
+   "mape_pct": 3.66,
+   "bias_pct": 0.01,
+   "p90_abs_error_pct": 7.89
+  }
+ ],
+ "holiday_scores": [
+  {
+   "days": "normal days",
+   "model": "seasonal_naive",
+   "n": 6832,
+   "mape_pct": 4.09
+  },
+  {
+   "days": "normal days",
+   "model": "ridge",
+   "n": 6832,
+   "mape_pct": 3.29
+  },
+  {
+   "days": "holidays, bridge days, Christmas",
+   "model": "seasonal_naive",
+   "n": 294,
+   "mape_pct": 18.57
+  },
+  {
+   "days": "holidays, bridge days, Christmas",
+   "model": "ridge",
+   "n": 294,
+   "mape_pct": 6.69
+  }
+ ],
+ "day_ahead_comparison": {
+  "days": 1021,
+  "period": "2024-01-02 to 2026-10-18",
+  "mape_pct": {
+   "ridge": 3.16,
+   "official": 3.18,
+   "combined": 2.65,
+   "seasonal_naive": 4.58
+  },
+  "ridge_vs_official": {
+   "n": 1021,
+   "mean_difference_pp": -0.019,
+   "p_value": 0.8634,
+   "share_first_better_pct": 52.5
+  },
+  "combined_vs_official": {
+   "n": 1021,
+   "mean_difference_pp": -0.524,
+   "p_value": 0.0,
+   "share_first_better_pct": 62.8
+  }
+ }
+}

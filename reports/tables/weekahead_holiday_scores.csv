@@ -1,0 +1,5 @@
+days,model,n,mape_pct
+normal days,seasonal_naive,6832,4.09
+normal days,ridge,6832,3.29
+"holidays, bridge days, Christmas",seasonal_naive,294,18.57
+"holidays, bridge days, Christmas",ridge,294,6.69
